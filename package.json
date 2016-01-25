@@ -1,15 +1,11 @@
 {
-    "name": "symlink",
+    "name": "linked",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "build:regular": "browserify app/main-regular.js -t [babelify] --outfile out/bundle-regular.js",
         "build:linked": "browserify app/main-linked.js -t [babelify] --outfile out/bundle-linked.js"
     },
-    "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "babelify": "^6.4.0",
         "browserify": "^13.0.0"
